@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 605" width="650" height="605" font-family="ui-monospace, Menlo, monospace" font-size="13">
+<style>
+  .row { opacity: 0; }
+  @keyframes typein { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+  @keyframes fadein { to { opacity: 1; } }
+  .row-0 { animation: typein 0.35s steps(24) 0.000s forwards, fadein 0.01s 0.000s forwards; }
+  .row-1 { animation: typein 0.35s steps(24) 0.045s forwards, fadein 0.01s 0.045s forwards; }
+  .row-2 { animation: typein 0.35s steps(24) 0.090s forwards, fadein 0.01s 0.090s forwards; }
+  .row-3 { animation: typein 0.35s steps(24) 0.135s forwards, fadein 0.01s 0.135s forwards; }
+  .row-4 { animation: typein 0.35s steps(24) 0.180s forwards, fadein 0.01s 0.180s forwards; }
+  .row-5 { animation: typein 0.35s steps(24) 0.225s forwards, fadein 0.01s 0.225s forwards; }
+  .row-6 { animation: typein 0.35s steps(24) 0.270s forwards, fadein 0.01s 0.270s forwards; }
+  .row-7 { animation: typein 0.35s steps(24) 0.315s forwards, fadein 0.01s 0.315s forwards; }
+  .row-8 { animation: typein 0.35s steps(24) 0.360s forwards, fadein 0.01s 0.360s forwards; }
+  .row-9 { animation: typein 0.35s steps(24) 0.405s forwards, fadein 0.01s 0.405s forwards; }
+  .row-10 { animation: typein 0.35s steps(24) 0.450s forwards, fadein 0.01s 0.450s forwards; }
+  .row-11 { animation: typein 0.35s steps(24) 0.495s forwards, fadein 0.01s 0.495s forwards; }
+  .row-12 { animation: typein 0.35s steps(24) 0.540s forwards, fadein 0.01s 0.540s forwards; }
+  .row-13 { animation: typein 0.35s steps(24) 0.585s forwards, fadein 0.01s 0.585s forwards; }
+  .row-14 { animation: typein 0.35s steps(24) 0.630s forwards, fadein 0.01s 0.630s forwards; }
+  .row-15 { animation: typein 0.35s steps(24) 0.675s forwards, fadein 0.01s 0.675s forwards; }
+  .row-16 { animation: typein 0.35s steps(24) 0.720s forwards, fadein 0.01s 0.720s forwards; }
+  .row-17 { animation: typein 0.35s steps(24) 0.765s forwards, fadein 0.01s 0.765s forwards; }
+  .row-18 { animation: typein 0.35s steps(24) 0.810s forwards, fadein 0.01s 0.810s forwards; }
+  .row-19 { animation: typein 0.35s steps(24) 0.855s forwards, fadein 0.01s 0.855s forwards; }
+  .row-20 { animation: typein 0.35s steps(24) 0.900s forwards, fadein 0.01s 0.900s forwards; }
+  .row-21 { animation: typein 0.35s steps(24) 0.945s forwards, fadein 0.01s 0.945s forwards; }
+  .row-22 { animation: typein 0.35s steps(24) 0.990s forwards, fadein 0.01s 0.990s forwards; }
+  .row-23 { animation: typein 0.35s steps(24) 1.035s forwards, fadein 0.01s 1.035s forwards; }
+  .row-24 { animation: typein 0.35s steps(24) 1.080s forwards, fadein 0.01s 1.080s forwards; }
+  .row-25 { animation: typein 0.35s steps(24) 1.125s forwards, fadein 0.01s 1.125s forwards; }
+  .row-26 { animation: typein 0.35s steps(24) 1.170s forwards, fadein 0.01s 1.170s forwards; }
+  .row-27 { animation: typein 0.35s steps(24) 1.215s forwards, fadein 0.01s 1.215s forwards; }
+  .row-28 { animation: typein 0.35s steps(24) 1.260s forwards, fadein 0.01s 1.260s forwards; }
+  .row-29 { animation: typein 0.35s steps(24) 1.305s forwards, fadein 0.01s 1.305s forwards; }
+  .row-30 { animation: typein 0.35s steps(24) 1.350s forwards, fadein 0.01s 1.350s forwards; }
+  .row-31 { animation: typein 0.35s steps(24) 1.395s forwards, fadein 0.01s 1.395s forwards; }
+  .row-32 { animation: typein 0.35s steps(24) 1.440s forwards, fadein 0.01s 1.440s forwards; }
+  .row-33 { animation: typein 0.35s steps(24) 1.485s forwards, fadein 0.01s 1.485s forwards; }
+  .row-34 { animation: typein 0.35s steps(24) 1.530s forwards, fadein 0.01s 1.530s forwards; }
+  .row-35 { animation: typein 0.35s steps(24) 1.575s forwards, fadein 0.01s 1.575s forwards; }
+  .row-36 { animation: typein 0.35s steps(24) 1.620s forwards, fadein 0.01s 1.620s forwards; }
+  .row-37 { animation: typein 0.35s steps(24) 1.665s forwards, fadein 0.01s 1.665s forwards; }
+  .row-38 { animation: typein 0.35s steps(24) 1.710s forwards, fadein 0.01s 1.710s forwards; }
+  .row-39 { animation: typein 0.35s steps(24) 1.755s forwards, fadein 0.01s 1.755s forwards; }
+  .row-40 { animation: typein 0.35s steps(24) 1.800s forwards, fadein 0.01s 1.800s forwards; }
+  .row-41 { animation: typein 0.35s steps(24) 1.845s forwards, fadein 0.01s 1.845s forwards; }
+  .row-42 { animation: typein 0.35s steps(24) 1.890s forwards, fadein 0.01s 1.890s forwards; }
+  .row-43 { animation: typein 0.35s steps(24) 1.935s forwards, fadein 0.01s 1.935s forwards; }
+  .row-44 { animation: typein 0.35s steps(24) 1.980s forwards, fadein 0.01s 1.980s forwards; }
+</style>
+  <text class="row row-0" x="10" y="23" fill="#c9d1d9" xml:space="preserve">                                                                                          </text>
+  <text class="row row-1" x="10" y="36" fill="#c9d1d9" xml:space="preserve">                                                                                          </text>
+  <text class="row row-2" x="10" y="49" fill="#c9d1d9" xml:space="preserve">                                      .`:::-==-::`.                                       </text>
+  <text class="row row-3" x="10" y="62" fill="#c9d1d9" xml:space="preserve">                                   .:+cc*+*c****css*+-`.                                  </text>
+  <text class="row row-4" x="10" y="75" fill="#c9d1d9" xml:space="preserve">                                  `=*cssc++css##%%%%%%#c+:                                </text>
+  <text class="row row-5" x="10" y="88" fill="#c9d1d9" xml:space="preserve">                                 -=*#%%####%@@@@@@%%%%%%%#c.                              </text>
+  <text class="row row-6" x="10" y="101" fill="#c9d1d9" xml:space="preserve">                               .=*c#@@@%%##sss##%%@@@@@@@%%c.                             </text>
+  <text class="row row-7" x="10" y="114" fill="#c9d1d9" xml:space="preserve">                               +ss%@@%#scc******csss#%%@@@@%*                             </text>
+  <text class="row row-8" x="10" y="127" fill="#c9d1d9" xml:space="preserve">                              `sss%@#scc**+++*******cs%%%%@@%=                            </text>
+  <text class="row row-9" x="10" y="140" fill="#c9d1d9" xml:space="preserve">                              :##%%*=-----====+*******#%%%%@@*                            </text>
+  <text class="row row-10" x="10" y="153" fill="#c9d1d9" xml:space="preserve">                              `#%%c++===+===-==+++*++**#%%%%%-                            </text>
+  <text class="row row-11" x="10" y="166" fill="#c9d1d9" xml:space="preserve">                              `ss#*cssccsss###sccssssss#s#%%#.                            </text>
+  <text class="row row-12" x="10" y="179" fill="#c9d1d9" xml:space="preserve">                              .s%c+cssssss#c*#ccscscc**%ss%%+                             </text>
+  <text class="row row-13" x="10" y="192" fill="#c9d1d9" xml:space="preserve">                              -*cc-=*ccccsc`:*ccccc*c**#s%%%`                             </text>
+  <text class="row row-14" x="10" y="205" fill="#c9d1d9" xml:space="preserve">                             .+*+++--+**c*:`:-cc*****+c+*#c*-                             </text>
+  <text class="row row-15" x="10" y="218" fill="#c9d1d9" xml:space="preserve">                             .=*+-===+**+++====+cc****+=*s++=                             </text>
+  <text class="row row-16" x="10" y="231" fill="#c9d1d9" xml:space="preserve">                              :++=***cccs#scccsc***=====cc*+`                             </text>
+  <text class="row row-17" x="10" y="244" fill="#c9d1d9" xml:space="preserve">                              `-=+*cs###s**+++*csssc++++sc*=                              </text>
+  <text class="row row-18" x="10" y="257" fill="#c9d1d9" xml:space="preserve">                               ..=ccc*cs*+-::--+sccs++**=--.                              </text>
+  <text class="row row-19" x="10" y="270" fill="#c9d1d9" xml:space="preserve">                                 `*ccc*ccc*++++++++***c=                                  </text>
+  <text class="row row-20" x="10" y="283" fill="#c9d1d9" xml:space="preserve">                                  `cssccccccc*++++***c*`                                  </text>
+  <text class="row row-21" x="10" y="296" fill="#c9d1d9" xml:space="preserve">                                   -s##sssccc****cscc*+`                                  </text>
+  <text class="row row-22" x="10" y="309" fill="#c9d1d9" xml:space="preserve">                                   `*s#%%%########s**++-`                                 </text>
+  <text class="row row-23" x="10" y="322" fill="#c9d1d9" xml:space="preserve">                                   .+ccs#%%%%##sc**+++=*%c:                               </text>
+  <text class="row row-24" x="10" y="335" fill="#c9d1d9" xml:space="preserve">                                  .++***ccscc**++++++++c#%#*:                             </text>
+  <text class="row row-25" x="10" y="348" fill="#c9d1d9" xml:space="preserve">                                 `*%**c*****+++++++++*s%#%###*-`..                        </text>
+  <text class="row row-26" x="10" y="361" fill="#c9d1d9" xml:space="preserve">                              .`=cc%#cc**++++====++**s%#%%######sc*+-:.                   </text>
+  <text class="row row-27" x="10" y="374" fill="#c9d1d9" xml:space="preserve">                          .:=+*cccc#%scc*++++++++***c%#%@%#######ss##ssc+=:`.             </text>
+  <text class="row row-28" x="10" y="387" fill="#c9d1d9" xml:space="preserve">                      .:=+****cccccssscc**++++++**c#%##%%##################ss*+=:`.       </text>
+  <text class="row row-29" x="10" y="400" fill="#c9d1d9" xml:space="preserve">                 .`:=+*ccccc**cscs%%#s****+++++*c#%@@%%@%########%%##############scc+=:   </text>
+  <text class="row row-30" x="10" y="413" fill="#c9d1d9" xml:space="preserve">             :==**ccccccc**sccsscs@@@%s=--+*****#@@@@@@%###############################+  </text>
+  <text class="row row-31" x="10" y="426" fill="#c9d1d9" xml:space="preserve">           `*scccccccccccccsssssss@@@@@#c=-+****c##%%@@%###########################s####= </text>
+  <text class="row row-32" x="10" y="439" fill="#c9d1d9" xml:space="preserve">          .cscccssscccccssssssssss@@@%@@@%*=+++**c#%@@%############%#############%#######`</text>
+  <text class="row row-33" x="10" y="452" fill="#c9d1d9" xml:space="preserve">          =##sssssssssssssssssssss%%%%%%%%%*=+++c%%@%@############%############%%%#%%####*</text>
+  <text class="row row-34" x="10" y="465" fill="#c9d1d9" xml:space="preserve">         .s#####sssssssssssssss#ss%#%%%%%%%#+=+*#%@%@%###########%###########%%%%%#%%#####</text>
+  <text class="row row-35" x="10" y="478" fill="#c9d1d9" xml:space="preserve">         -###%####sssssssssssss##s%%###%%%%%c=+s%@%%@###########%##########%%%%%%%%%%%#%##</text>
+  <text class="row row-36" x="10" y="491" fill="#c9d1d9" xml:space="preserve">        .c#%%%######sssssssssss##s#%####%%%%#+c%@@%@%##########%###########%%%%%%%%%%%%%%#</text>
+  <text class="row row-37" x="10" y="504" fill="#c9d1d9" xml:space="preserve">        :#%%%%%#######ssss#ssss####%##%%#%%%%s%@@%@@##########%###########%%%%%%%%%%%%%%%%</text>
+  <text class="row row-38" x="10" y="517" fill="#c9d1d9" xml:space="preserve">        +%#%%%%########sss##ss####s%%#%%%%%%%%@@%@@%#########%#########%%%%%%%%@%%%%%%%%%%</text>
+  <text class="row row-39" x="10" y="530" fill="#c9d1d9" xml:space="preserve">        c%%%%%@%#########ss##s######%%%%%%%%%@@%@@@#########%%#####%%%%%%%%%%%%@%%%%%%%%%%</text>
+  <text class="row row-40" x="10" y="543" fill="#c9d1d9" xml:space="preserve">       .s%%%%%@%%#%%################%%%%%%%%@@%@@@%########%%#%%%%%%%%%%%%%%%%@@%%%%%%%%%%</text>
+  <text class="row row-41" x="10" y="556" fill="#c9d1d9" xml:space="preserve">       `###%%%@@%%%%%###############%%%%%%%%%%@@@@########%%%%%%%%%%%%%%%%%%%%@@%%%%%%%%%%</text>
+  <text class="row row-42" x="10" y="569" fill="#c9d1d9" xml:space="preserve">       =%##%%%@@%%%%%###############%@%%%%%%%%@@@%#######%%%%%%%%%%%%%%%%%%%%%@@%%%%%%%%%%</text>
+  <text class="row row-43" x="10" y="582" fill="#c9d1d9" xml:space="preserve">       *#%%%%%@@@%%%%%%%##%###%####%#%@%%@%%%%@@@#######%%%%%%%%%%%%%%%%%%%%%@@@%%%%%%%%%%</text>
+  <text class="row row-44" x="10" y="595" fill="#c9d1d9" xml:space="preserve">      .s%%%%%%@@@%%%%%%%%%%%###%###%%%@%%@%%%%@@%#%%###%%%%%%%%%%%%%%%%%%%%%%@@@%%%%%%%%%%</text>
+</svg>

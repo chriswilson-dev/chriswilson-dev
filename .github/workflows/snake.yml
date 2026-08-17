@@ -2,10 +2,12 @@ name: Generate snake animation
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # once a day, ~6am UTC
+    - cron: "0 */2 * * *"   # every 2 hours, as a safety-net backup
   workflow_dispatch: {}
   push:
     branches: [main]
+  repository_dispatch:
+    types: [contribution-made]   # fired instantly by other repos, see step below
 
 permissions:
   contents: write
